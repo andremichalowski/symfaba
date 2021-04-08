@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Nav from '../components/nav'
 
 export default function Home() {
   return (
@@ -9,8 +10,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {/* This is where the money is */}
+      <Nav /> 
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1>This is body...mmmm body (From main!)</h1>
+
+
+
+
+        {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
@@ -47,7 +56,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>
