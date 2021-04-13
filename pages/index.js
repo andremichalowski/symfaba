@@ -29,7 +29,7 @@ import reactDOM, {render} from 'react-dom';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Nav from '../components/nav'
-import Sider from '../components/antdTest'
+// import Sider from '../components/antdTest'
 import Footer from '../components/footer'
 
 export default function App() {
@@ -42,7 +42,7 @@ export default function App() {
       </Head>
 
       <Nav /> 
-      <Sider />
+      {/* <Sider /> */}
 
       <main className={styles.main}>
         <h1>Home Page</h1>
@@ -53,4 +53,4 @@ export default function App() {
   );
 };
 
-reactDOM.render(<App />, document.getElementById('root'));
+// reactDOM.render(<App />, document.getElementById('__next'));
