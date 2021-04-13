@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Nav from '../components/nav'
 // import Sider from '../components/antdTest'
 import Footer from '../components/footer'
