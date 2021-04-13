@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Nav from '../components/nav'
+import Sider from '../components/antdTest'
 import Footer from '../components/footer'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <Nav /> 
+      <Sider />
 
       <main className={styles.main}>
         <h1>Home Page</h1>
