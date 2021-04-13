@@ -1,10 +1,39 @@
+// import Head from 'next/head'
+// import styles from '../styles/Home.module.css'
+// import Nav from '../components/nav'
+// // import Sider from '../components/antdTest'
+// import Footer from '../components/footer'
+
+// export default function Home() {
+//   return (
+//     <div className={styles.container}>
+//       <Head>
+//         <title>Create Next App</title>
+//         <link rel="icon" href="/favicon.ico" />
+//       </Head>
+
+//       <Nav /> 
+//       {/* <Sider /> */}
+
+//       <main className={styles.main}>
+//         <h1>Home Page</h1>
+        
+//       </main>
+//       <Footer />
+//     </div>
+//   )
+// }
+
+import React from 'react';
+import reactDOM, {render} from 'react-dom';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Nav from '../components/nav'
-// import Sider from '../components/antdTest'
+import Sider from '../components/antdTest'
 import Footer from '../components/footer'
 
-export default function Home() {
+export default function App() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +42,7 @@ export default function Home() {
       </Head>
 
       <Nav /> 
-      {/* <Sider /> */}
+      <Sider />
 
       <main className={styles.main}>
         <h1>Home Page</h1>
@@ -21,5 +50,7 @@ export default function Home() {
       </main>
       <Footer />
     </div>
-  )
-}
+  );
+};
+
+reactDOM.render(<App />, document.getElementById('root'));
