@@ -5,10 +5,12 @@ export default function Nav() {
     <div >
       <nav style={{"margin": "20px"}}>
         <div class="image_container">
-          <img src="/logo1.jpg" alt="symfaba_logo" style={{"width": "100px"}} />
+          <Link href="/">
+            <img src="/logo1.jpg" alt="symfaba_logo" style={{"width": "100px"}} />
+          </Link>
         </div>
         <br/>
-        <Link href="/store_pages/store_products"><a>Products</a></Link>
+        <Link href="/store_pages/store_all"><a>Store</a></Link>
         <br/>
         <Link href="/accessory_pages/articles"><a>Articles</a></Link>
         <br/>
