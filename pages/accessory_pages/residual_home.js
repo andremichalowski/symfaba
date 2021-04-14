@@ -1,4 +1,7 @@
-{/* <h1 className={styles.title}>
+export default function residual_home() {
+  return (
+    <div>
+      {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
@@ -35,3 +38,6 @@
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a> */}
+    </div>
+  )
+}
