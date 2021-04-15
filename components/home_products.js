@@ -2,9 +2,20 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
 import ProductCard from '../components/product_card'
+import axios from 'axios'
 
-const Projects = [
-  {id: 1, name: 'Piff', image: 'Piff.png', description: 'Insert Piff info here'},
+const Products = [
+  {
+    id: 1, 
+    name: 'Piff', 
+    image: 'Piff.png', 
+    description: 'Insert Piff info here',
+    parts: [
+      {id: 1, name: 'Pi Pico', image: 'Pi_Pico.png', description: 'Base microcontroller' },
+      {id: 2, name: 'Pi Touch Screen', image: 'Touch_Screen.jpg', description: '1" monitor display' },
+      {id: 3, name: 'Piff Case', image: 'Piff_Case.jpg', description: 'Symfaba brand built container' },
+    ],
+  },
   {id: 2, name: 'Pi Camera', image: 'Pi_Camera.png', description: 'Insert Pi Camera info here'},
   {id: 3, name: 'Audio Explorer', image: 'Audio_Explorer.png', description: 'Insert Audio Explorer info here'},
 ]
@@ -14,10 +25,10 @@ const HomeProducts = () => {
 
   // useEffect(() => {
   //   axios
-  //     .get('https://...')
+  //     .get('https://localhost:3000')
   //     .then(res => {
-  //       // console.log(res.data.results);
-  //       setHomeProductsData(res.data.results);
+  //       console.log(res.data.results);
+  //       // setHomeProductsData(res.data.results);
   //     })
   //     .catch(err => {
   //       console.log('404 HomeProducts Error', err);
@@ -37,21 +48,14 @@ const HomeProducts = () => {
        <h1> Home Products (Apple Display)</h1>
      </products>
         
-        {/* {Projects.map((name, id) => {
-          return (
-            <ProductCard key={id} name={name} />
-            // <h1>Test</h1>
-          );
-        })} */}
 
-        {Projects.map(post =>
-          <div key={post.id} >
-            <Link href="/store_pages/store_product">
+        {Products.map(products =>
+          <div key={products.id} >
+            <Link href="/store_pages/store_product" >
               <div style={{"border": "3px black solid", "height": "200px", "width": "500px", "margin": "10px"}}>
-              <ProductCard key={post.id} name={post.name} description={post.description} image={post.image} />
+                <ProductCard key={products.id} name={products.name} description={products.description} image={products.image} />
               </div>
             </Link>
-
           </div>
         )}
 
