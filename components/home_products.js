@@ -37,22 +37,22 @@ const HomeProducts = () => {
 
   return (
     
-    <div className={styles.container}>
+    <div >
 
-     <Head>
+     {/* <Head>
        <title>Create Next App</title>
        <link rel="icon" href="/favicon.ico" />
-     </Head>
+     </Head> */}
 
-     <products className={styles.products}>
+     {/* <products className={styles.products}>
        <h1> Home Products (Apple Display)</h1>
-     </products>
+     </products> */}
         
 
         {Products.map(products =>
           <div key={products.id} >
             <Link href="/store_pages/store_product" >
-              <div style={{"border": "3px black solid", "height": "200px", "width": "500px", "margin": "10px"}}>
+              <div style={{"height": "300px", "width": "800px", "margin": "10px", "padding": "0px 3rem"}}>
                 <ProductCard key={products.id} name={products.name} description={products.description} image={products.image} />
               </div>
             </Link>

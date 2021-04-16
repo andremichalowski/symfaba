@@ -9,10 +9,12 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap" rel="stylesheet"></link>
       </Head>
       
       <main className={styles.main}>
-        <h1>Home Page</h1>
+        <h1>Showroom</h1>
       </main>
 
       <HomeProducts />
