@@ -6,9 +6,9 @@ export default function store_all() {
 
       <Link href="/store_pages/store_products"><h2>Products</h2></Link>
         <Link href="/store_pages/store_product"><h3>Product 1</h3></Link>
-        <h3>Product 2 (Needs Link)</h3>
-        <h3>Product 3 (Needs Link)</h3>
-        <h3>Product 4 (Needs Link)</h3>
+        <h3>Product 2 </h3>
+        <h3>Product 3 </h3>
+        <h3>Product 4 </h3>
           
       <Link href="/store_pages/store_parts"><h2>Parts</h2></Link>
         <Link href="/store_pages/store_part"><h3>Part 1</h3></Link>

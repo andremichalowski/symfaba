@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <div class="main_container" style={{"display": "flex"}}>
-      <Nav />
+      <Nav style={{"margin": "200px"}}/>
       <Component {...pageProps} />
       </div>
       <Footer />
