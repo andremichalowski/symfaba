@@ -18,6 +18,8 @@ export default function product_parts_breakdown(props) {
           {/* <Link href="/store_pages/store_part"> */}
             <div style={{"border": "3px black solid", "height": "250px", "width": "500px", "margin": "40px"}}>
               <PartCard key={part.id} name={part.name} description={part.description} image={part.image} />
+              {/* Be sure to show parts as a grid going forward */}
+
             </div>
           {/* </Link> */}
         </div>
