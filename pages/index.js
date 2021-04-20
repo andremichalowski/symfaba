@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
-import HomeProducts from '../components/home_products'
+import HomeProducts from './b_showroom/home_products'
 
 export default function Home() {
   return (
