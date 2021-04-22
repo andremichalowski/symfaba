@@ -1,4 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Figma: https://www.figma.com/file/DPTT6eAs350ImJRCuhOI3w/SYMFABA?node-id=0%3A1
+
+Kickass Readme Ref: https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9
+
+Breakdown of project:
+
+A. Home (index.js)
+B. Pre-Store ("Showroom" files)
+C. Store ("Store" files)
+D. Authentication ("Authentication" files)
+E. Checkout ("Checkout" files)
+F. Social/Marketing pages  ("Annex" files)
+  
+
+
+
+<!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -32,14 +48,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
+ -->
 
 
 
 <!-- Information from web -->
 
 
-Figma: https://www.figma.com/file/DPTT6eAs350ImJRCuhOI3w/SYMFABA?node-id=0%3A1
 
-Kickass Readme Ref: https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9
 

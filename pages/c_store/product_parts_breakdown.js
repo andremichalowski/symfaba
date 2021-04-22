@@ -1,4 +1,4 @@
-import PartCard from './../../components/part_card'
+import PartCard from '../../components/part_card'
 import Link from 'next/link'
 
 const Parts = [
